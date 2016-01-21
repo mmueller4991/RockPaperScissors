@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    class Paper : IWinLose
+    class Spock : IWinLose
     {
         public bool displayLoss()
         {
-            Console.WriteLine("Paper loses to scissors and lizard.");
+            Console.WriteLine("Spock loses to paper and lizard.");
             return false;
         }
 
         public bool displayWin()
         {
-            Console.WriteLine("Paper wins against rock and spock.");
+            Console.WriteLine("Spock wins against scissors and rock.");
             return true;
         }
     }

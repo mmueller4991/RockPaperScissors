@@ -10,9 +10,10 @@ namespace RockPaperScissors
     {
         public int numberOfPlayers;
 
-        private void getNumberOfPlayers()
+        public int getNumberOfPlayers()
         {
-            this.numberOfPlayers = Convert.ToInt32(getUserInput("1 or 2 players?"));
+            numberOfPlayers = Convert.ToInt32(getUserInput("1 or 2 players?"));
+            return numberOfPlayers;
         }
 
     }

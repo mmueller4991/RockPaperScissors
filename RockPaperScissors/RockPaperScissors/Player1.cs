@@ -8,7 +8,8 @@ namespace RockPaperScissors
 {
     class Player1:UserInput
     {
-        string Player1Name;
+        public string Player1Name;
+        public string handSign;
 
         public void getPlayer1name()
         {

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    class Player2
+    class Player2:UserInput
     {
-        string Player2Name;
+        public string Player2Name;
 
-        public void getPlayer1name()
+        public void getPlayer2name()
         {
-            this.Player2Name = getUserInput("Please enter the name for Player 1");
+            this.Player2Name = getUserInput("Please enter the name for Player 2");
         }
     }
 }

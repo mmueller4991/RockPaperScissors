@@ -10,13 +10,13 @@ namespace RockPaperScissors
     {
         public bool displayLoss()
         {
-            Console.WriteLine("Scissors loses to rock.");
+            Console.WriteLine("Scissors loses to rock and spock.");
             return false;
         }
 
         public bool displayWin()
         {
-            Console.WriteLine("Scissors wins against paper.");
+            Console.WriteLine("Scissors wins against paper and lizard.");
             return true;
         }
     }
