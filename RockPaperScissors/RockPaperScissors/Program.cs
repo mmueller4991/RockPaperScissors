@@ -21,6 +21,10 @@ namespace RockPaperScissors
             UserPickNumberOfPlayers userpicknumberofplayers = new UserPickNumberOfPlayers();
             UserPickHandSign userpickhandsign = new UserPickHandSign();
             DisplayResults displayresults = new DisplayResults();
+            WriteToDocument writetodocument = new WriteToDocument();
+            ReadFromDocument readfromdocument = new ReadFromDocument();
+
+            readfromdocument.writeDocumentContent();
 
             numberOfPlayers = userpicknumberofplayers.pickNumberOfPlayers(player1, player2, numberofplayers);
 
@@ -31,6 +35,8 @@ namespace RockPaperScissors
             displayresults.DisplayWinner(player1, player2, checkplayerwin);
 
             checkplayerwin.SignClassOutput();
+
+            writetodocument.writeTextToDocument(player1, player2);
         }
     }
 }
