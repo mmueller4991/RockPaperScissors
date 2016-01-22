@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CheckPlayerWin.cs" />
+    <Compile Include="DisplayResults.cs" />
     <Compile Include="IWinLose.cs" />
     <Compile Include="Lizard.cs" />
     <Compile Include="NumberOfPlayers.cs" />
@@ -57,6 +58,8 @@
     <Compile Include="Scissors.cs" />
     <Compile Include="Spock.cs" />
     <Compile Include="UserInput.cs" />
+    <Compile Include="UserPickHandSign.cs" />
+    <Compile Include="UserPickNumberOfPlayers.cs" />
     <Compile Include="WinStreak.cs" />
   </ItemGroup>
   <ItemGroup>

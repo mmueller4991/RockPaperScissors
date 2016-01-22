@@ -9,6 +9,7 @@ namespace RockPaperScissors
     class Player2:UserInput
     {
         public string Player2Name;
+        public int Winstreak;
 
         public void getPlayer2name()
         {

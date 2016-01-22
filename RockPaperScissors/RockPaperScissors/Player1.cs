@@ -9,7 +9,7 @@ namespace RockPaperScissors
     class Player1:UserInput
     {
         public string Player1Name;
-        public string handSign;
+        public int Winstreak;
 
         public void getPlayer1name()
         {
